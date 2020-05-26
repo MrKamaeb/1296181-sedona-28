@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-<div class="header">
+<section class="header">
 	<nav class="header">
 		<ul class="header-list">
 			<li ><a href="info.html">информация</a></li>
@@ -15,9 +15,9 @@
 			<li ><a href="hotels.html">гостиницы</a></li>
 		</ul>
 	</nav>
-</div>
+</section>
 
-<div class="main">
+<section class="main">
 	<div class="main-top">
 	<div class="main-top__photo">
 		<img src="img/main/welcome/background photo.jpg" alt="главное фото">
@@ -67,38 +67,64 @@
 	<p class="devil-text__subtitle">да, по нему можно пройти! если конечно вы осмелитесь</p>
 </div>
 </div>
-<div class="main-mid__block2">
-	<div class="block2__square">
+<div class="main-mid__blocksquare">
+	<div class="block__square">
 		<p class="square__title">небольшая площадь</p>
 		<p class="square__number">-№3-</p>
 		<p class="square_subtitle">все достопримечательности находятся очень близко</p>
 	</div>
-	<div class="block2__road">
+	<div class="block__road">
 		<p class="road__title">красивая дорогоа</p>
 		<p class="road_number">-№4-</p>
 		<p class="road__subtitle">ехать в седону из лас-вегаса совсем не скучно!</p>
 	</div>
-	<div class="block2__tourists">
+	<div class="block__tourists">
 		<p class="tourists_title">мало туристов</p>
-		<p class="tourists_number">№5</p>
+		<p class="tourists_number">-№5-</p>
 		<p class="tourists_subtitle">большинство едет в гранд каньон и толпится там</p>
 	</div>
 </div>
 </div>
 <div class="main-bot">
-	<h2 class="main-bot__interesting">Заинтерисовались?</h2>
-	<p class="main-bot__interesting2">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-	<div class="main-bot__search">
-<p class="main-bot__search-text">Поиск гостиниц в седоне</p>
-<form action="input">дата заезда</form>
-<form action="input">дата выезда</form>
-<button class="main-bot__search__button">найти</button>
+	<h2 class="main-bot__interesting">заинтерисовались?</h2>
+	<p class="main-bot__title">укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+	<div class="bot-search__form">
+<p class="main-bot__search-text">поиск гостиниц в седоне</p>
+<form action="https://echo.htmlacademy.ru" method="post">
+<p class="arrival">
+<label for="arrival date">дата заезда:</label>
+<input tabindex="1" id="arrival date" type="text" name="date" placeholder="1 января 2020">
+</p>
+<p class="departure">
+	<label for="date of departure">дата выезда:</label>
+	<input tabindex="2" id="date of departure" type="text" name="date" placeholder="10 января 2020">
+</p>
+<div class="number">
+	<div class="grown">
+		<label for="grownup">взрослые:</label>
+		<div class="grownup_number">
+			<img src="img/main/icons/min.svg" alt="min">
+			<span>2</span>
+			<img src="img/main/icons/plus.svg" alt="plus">
+		</div>
 	</div>
+	<div class="child">
+		<label for="children">дети:</label>
+			<div class="child_number">
+			<img src="img/main/icons/min.svg" alt="min">
+			<span>0</span>
+			<img src="img/main/icons/plus.svg" alt="plus">
+			</div>
+	</div>
+</div>
+<button tabindex="3" type="submit">найти</button>
+	</form>
+</div>
 	<div class="main-bot__map"></div>
 </div>
-</div>
+</section>
 
-<div class="footer">	
+<section class="footer">	
 <p class="footer-contacts">#visitsedona <br>	
 тел:+7(495)666-01-66
 </p>
@@ -114,6 +140,6 @@
 <div class="Footer-label__html_academy">
 	<img src="img/main/icons/logo-htmlacademy.svg" alt="значек академии">
 </div>
-</div>
+</section>
   </body>
 </html>

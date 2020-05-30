@@ -12,20 +12,38 @@ button::-moz-focus-inner{padding:0;border:0;}
 a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;}
+img{vertical-align: top;max-width: 100%;height: auto;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 body{
-font-family: pt sans;
-font-weight: 300;
+	font-family: PT Sans;
+	text-transform: uppercase;
+
+	background-color: #F2F2F2;
+}
+.all{
+	max-width: 1200px;
+	margin: auto;
+padding: 40px;
+
 }
 .header {
+	background-color: #ffff;
+	font-size: 14px;
 }
-.header-list {}
-.main {}
+.header-list {	text-decoration-color: #000000;
+font-weight: bold;
+}
+.main {
+	background-image: url(..\img\main\welcome\background photo.jpg);
+}
 .main-top {}
+.main-top__logo{
+	background-image: url(..\img\main\welcome\background photo.jpg);
+}
 .main-top__photo {}
 .main-top_phototext {}
-.main-top__secondpart {}
+.main-top__text {
+}
 .main-top__sedonatext {}
 .main-top__reasons {}
 .main-mid {}
@@ -48,7 +66,8 @@ font-weight: 300;
 .block-souvenir__subtitle {}
 .main-mid__devil {}
 .devil-img_block {}
-.devil-text {}
+.devil-text {
+}
 .devil-text__title {}
 .devil-text_number {}
 .devil-text__subtitle {}

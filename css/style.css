@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 body{
 	font-family: PT Sans;
 	text-transform: uppercase;
-
 	background-color: #F2F2F2;
 }
 .all{
@@ -38,7 +37,7 @@ font-weight: bold;
 }
 .main-top {}
 .main-top__logo{
-	background-image: url(..\img\main\welcome\background photo.jpg);
+
 }
 .main-top__photo {}
 .main-top_phototext {}

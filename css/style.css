@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 body{
 	font-family: PT Sans;
 	text-transform: uppercase;
-	background-color: #F2F2F2;
+background-color: #F2F2F2;
 }
 .all{
 	max-width: 1200px;
@@ -26,31 +26,41 @@ padding: 40px;
 
 }
 .header {
-	background-color: #ffff;
+background-color: #ffff;
 	font-size: 14px;
 }
 .header-list {	text-decoration-color: #000000;
 font-weight: bold;
 }
 .main {
-	background-image: url(..\img\main\welcome\background photo.jpg);
+	
 }
-.main-top {}
+.main-top {
+background-image:url(..\img\main\welcome\welcome.jpg);
+}
 .main-top__logo{
 
 }
 .main-top__photo {}
 .main-top_phototext {}
 .main-top__text {
+	line-height: 26px;
+	background-color:  #ffff;
 }
-.main-top__sedonatext {}
-.main-top__reasons {}
-.main-mid {}
+.main-mid {
+	line-height: 21px;
+}
 .main-mid__realcity {}
+.realcity_text {
+	background-color: #81B3D2
+}
 .realcity__title {}
 .realcity_number {}
 .realcity__subtitle {}
-.main-mid__block {}
+.realcity_photo {}
+.main-mid__block {
+	background-color:  #ffff;
+}
 .block-house {}
 .block1-house_img {}
 .block1-house__title {}
@@ -66,11 +76,14 @@ font-weight: bold;
 .main-mid__devil {}
 .devil-img_block {}
 .devil-text {
+	background-color: #81B3D2;
 }
 .devil-text__title {}
 .devil-text_number {}
 .devil-text__subtitle {}
-.main-mid__blocksquare {}
+.main-mid__blocksquare {
+	background-color: #EEEEEE;
+}
 .block__square {}
 .square__title {}
 .square__number {}
@@ -84,10 +97,20 @@ font-weight: bold;
 .tourists_number {}
 .tourists_subtitle {}
 .main-bot {}
-.main-bot__interesting {}
-.main-bot__title {}
-.bot-search__form {}
+.main-bot__interesting {
+	background-color:  #ffff;
+}
+.interesting-text {
+	line-height: 24px;
+}
+.bot-interesting__title {}
+.main-bot__subtitle {}
+.search {}
 .main-bot__search-text {}
+.form {
+	line-height: 26px;
+	background-color:  #ffff;
+}
 .arrival {}
 .departure {}
 .number {}
@@ -95,8 +118,12 @@ font-weight: bold;
 .grownup_number {}
 .child {}
 .child_number {}
+
 .main-bot__map {}
-.footer {}
+.footer {
+	background: rgba(255, 255, 255, 0.9);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .footer-contacts {}
 .footer-links {}
 .Footer-label__html_academy {}

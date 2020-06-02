@@ -20,58 +20,134 @@ body{
 background-color: #F2F2F2;
 }
 .all{
+	min-height: 100%;
 	max-width: 1200px;
 	margin: auto;
 padding: 40px;
+overflow: hidden;
 
 }
 .header {
 background-color: #ffff;
 	font-size: 14px;
 }
-.header-list {	text-decoration-color: #000000;
+.header-list {
+	display: flex;
+color:#000000;
+justify-content: space-between;
 font-weight: bold;
 }
 .main {
 	
 }
 .main-top {
-background-image:url(..\img\main\welcome\welcome.jpg);
-}
-.main-top__logo{
 
 }
-.main-top__photo {}
-.main-top_phototext {}
+.main-top__logo{
+background-image: url(../img/main/welcome/welcome.jpg);
+min-height: 509px;
+}
+.main-top__photo {
+}
+.main-top_phototext {
+text-align: center;
+}
+.photo-welcome {}
+.photo-georgeus {}
+.photo-sedona {}
+.photo-lines {}
+
+
+
+
+
+
+
 .main-top__text {
-	line-height: 26px;
+	max-height: 212px;
+background-image:url(../img/main/welcome/Shapelines.png);
+	text-align: center;
+	line-height: 21px;
 	background-color:  #ffff;
+}
+.main-top__sedonatext {
+	padding-top: 42px;
+	font-weight: bold;
+	font-size: 21px;
+	margin-bottom: 50px;
+}
+.main-top__reasons {
+	font-size: 14px;
+	padding-bottom: 47px;
 }
 .main-mid {
 	line-height: 21px;
 }
-.main-mid__realcity {}
+.main-mid__realcity {
+	display: flex;
+}
 .realcity_text {
+	text-align: center;
+color: #FFFFFF;
+	max-height: 256px;
+	min-width: 400px;
 	background-color: #81B3D2
 }
-.realcity__title {}
-.realcity_number {}
-.realcity__subtitle {}
+.realcity__title {
+	padding-top: 45px;
+	font-weight: bold;
+	font-size: 21px;
+	padding-bottom: 25px;
+}
+.realcity_number {
+	font-size: 14px;
+	padding-bottom: 25px;
+}
+.realcity__subtitle {
+	font-size: 14px;
+
+}
 .realcity_photo {}
 .main-mid__block {
+	min-height: 330px;
 	background-color:  #ffff;
+
+}
+.content{
+	padding:60px 70px 82px 70px;
+justify-content: space-between;
+display: flex;
+text-align: center;
 }
 .block-house {}
-.block1-house_img {}
-.block1-house__title {}
+.block1-house_img {
+	padding-bottom: 29px;
+}
+.block1-house__title {
+	font-size: 21px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
 .block1-house__subtitle {}
 .block-food {}
-.block1-food__img {}
-.block-food__title {}
+.block1-food__img {
+		padding-bottom: 29px;
+	}
+.block-food__title {
+	font-size: 21px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
 .block-food_subtitle {}
 .block-souvenir {}
-.block1-souvenir__img {}
-.block-souvenir__title {}
+.block1-souvenir__img {
+	padding-bottom: 29px;
+}
+.block-souvenir__title {
+	font-size: 21px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
 .block-souvenir__subtitle {}
 .main-mid__devil {}
 .devil-img_block {}

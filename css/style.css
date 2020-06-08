@@ -25,17 +25,26 @@ background-color: #F2F2F2;
 	margin: auto;
 padding: 40px;
 overflow: hidden;
-
+font-size: 14px;
+line-height: 21px;
 }
 .header {
 background-color: #ffff;
 	font-size: 14px;
+	max-height: 50px;
 }
 .header-list {
+	padding: 15px 72px 15px 72px;
+color: #000000;
 	display: flex;
-color:#000000;
 justify-content: space-between;
 font-weight: bold;
+}
+.header-list li:nth-child(3){
+		padding-top: 0;
+}
+.logo__header{
+
 }
 .main {
 	
@@ -149,40 +158,109 @@ text-align: center;
 	padding-bottom: 25px;
 }
 .block-souvenir__subtitle {}
-.main-mid__devil {}
-.devil-img_block {}
+.main-mid__devil {
+
+color: #FFFFFF;
+	display: flex;
+		max-height: 256px;
+}
+.devil-img_block {
+	max-width: 800px;
+
+}
 .devil-text {
+
+	min-width: 400px;
+	text-align: center;
 	background-color: #81B3D2;
 }
-.devil-text__title {}
-.devil-text_number {}
-.devil-text__subtitle {}
-.main-mid__blocksquare {
-	background-color: #EEEEEE;
+.devil-text__title {
+padding-top: 50px;
+	padding-bottom: 25px;
+	font-weight: bold;
+	font-size: 21px;
 }
-.block__square {}
-.square__title {}
+.devil-text_number {
+	font-size: 14px;
+	padding-bottom: 23px;
+}
+.devil-text__subtitle {
+	font-size: 14px;
+
+
+}
+.main-mid__blocksquare {
+	min-height: 256px;
+
+	background-color: #EEEEEE;
+
+		text-align: center;
+}
+.blocksquare-content {
+		display: flex;
+				justify-content: space-between;
+	padding: 47px 77px 54px 96px;
+
+}
+.block__square {
+
+}
+.square__title {
+		font-weight: bold;
+	font-size: 21px;
+	padding-bottom: 25px;
+}
 .square__number {}
-.square_subtitle {}
-.block__road {}
-.road__title {}
+.square_subtitle {
+	padding-top: 23px;
+
+}
+.block__road {
+}
+.road__title {
+		font-weight: bold;
+	font-size: 21px;
+	padding-bottom: 25px;
+}
 .road_number {}
-.road__subtitle {}
-.block__tourists {}
-.tourists_title {}
+.road__subtitle {
+		padding-top: 23px
+}
+.block__tourists {
+}
+.tourists_title {
+		font-weight: bold;
+	font-size: 21px;
+	padding-bottom: 25px;
+}
 .tourists_number {}
-.tourists_subtitle {}
+.tourists_subtitle {
+		padding-top: 23px
+}
 .main-bot {}
 .main-bot__interesting {
+	min-height: 290px;
 	background-color:  #ffff;
+	text-align: center;
 }
 .interesting-text {
 	line-height: 24px;
+
 }
-.bot-interesting__title {}
-.main-bot__subtitle {}
+.bot-interesting__title {
+	padding-top: 58px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	font-size: 21px;
+}
+.main-bot__subtitle {
+	padding-bottom: 50px;
+}
 .search {}
-.main-bot__search-text {}
+.main-bot__search-text {
+font-weight: bold;
+font-size: 21px;
+}
 .form {
 	line-height: 26px;
 	background-color:  #ffff;
@@ -197,6 +275,8 @@ text-align: center;
 
 .main-bot__map {}
 .footer {
+	display: flex;
+	justify-content: space-between;
 	background: rgba(255, 255, 255, 0.9);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

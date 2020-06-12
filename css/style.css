@@ -34,18 +34,22 @@ background-color: #ffff;
 	max-height: 50px;
 }
 .header-list {
-	padding: 15px 72px 15px 72px;
-color: #000000;
 	display: flex;
-justify-content: space-between;
-font-weight: bold;
+	color: #000000;
+	justify-content: space-between;
 }
-.header-list li:nth-child(3){
-		padding-top: 0;
+.header-list a{
+	color: #000000;
+	font-weight: bold;
+	line-height: 26px;
+	margin
+	//*margin: 15px 72px 15px 72px;*//
 }
-.logo__header{
-
-}
+.list__info {}
+.list__catalog {}
+.list__img {}
+.list__map {}
+.list__hotels {}
 .main {
 	
 }
@@ -61,10 +65,18 @@ min-height: 509px;
 .main-top_phototext {
 text-align: center;
 }
-.photo-welcome {}
-.photo-georgeus {}
-.photo-sedona {}
-.photo-lines {}
+.photo-welcome {
+	padding-top: 77px;
+}
+.photo-georgeus {
+	margin-top: 10px;
+}
+.photo-sedona {
+	margin-top: 53px;
+}
+.photo-lines {
+	margin-top: 27px;
+}
 
 
 

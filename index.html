@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
- <section class="all">
+ <div class="all">
 <section class="header">
 <div class="header-list">
 <a href="info.html" class="list__info">информация</a>
@@ -20,7 +20,7 @@
 <section class="main">
 	<div class="main-top">
 		<div class="main-top__logo">
-
+ <h1 class="visually-hidden">Sedona</h1>
 	<div class="main-top__photo">
 	</div>
 	<div class="main-top_phototext">
@@ -107,69 +107,85 @@
 	</div>
 </div>
 </div>
+</section>
+<section class="footer">	
 <div class="main-bot">
 	<div class="main-bot__interesting"> 
 		<div class="interesting-text">
 	<h2 class="bot-interesting__title">заинтерисовались?</h2>
-	<p class="main-bot__subtitle">укажите предполагаемые даты поездки <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+	<p class="main-bot__subtitle">укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+	</div>
 	</div>
 	<div class="search">
 <p class="main-bot__search-text">поиск гостиниц в седоне</p>
 </div>
 </div>
-
+<div class="main-bot__map">
 <div class="form">
-<form action="https://echo.htmlacademy.ru" method="post">
-<p class="arrival">
+<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+<div class="appointment-item">
 <label for="arrival date">дата заезда:</label>
 <input tabindex="1" id="arrival date" type="text" name="date" placeholder="1 января 2020">
-</p>
-<p class="departure">
+
+<span class="icon__calendar"><img  src="img/main/icons/calendar.png" alt="calendar"></span>
+</div>
+<div class="appointment-item">
 	<label for="date of departure">дата выезда:</label>
 	<input tabindex="2" id="date of departure" type="text" name="date" placeholder="10 января 2020">
-</p>
+	
+	<span class="icon__calendar"><img  src="img/main/icons/calendar.png" alt="calendar"></span>
+</div>
 <div class="number">
 	<div class="grown">
-		<label for="grownup">взрослые:</label>
-		<div class="grownup_number">
-			<img src="img/main/icons/min.svg" alt="min">
-			<span>2</span>
-			<img src="img/main/icons/plus.svg" alt="plus">
+	<label for="number of grownup">взрослые:</label>
+<div class="numbers_grow">
+		<span>
+		<img class="minus" src="img/main/icons/min.svg" alt="min">
+		</span>
+		<input tabindex="3" type="tel" name="number" placeholder="2">
+		<span>
+		<img class="plus" src="img/main/icons/plus.svg" alt="plus">
+		</span>
 		</div>
 	</div>
 	<div class="child">
-		<label for="children">дети:</label>
-			<div class="child_number">
-			<img src="img/main/icons/min.svg" alt="min">
-			<span>0</span>
-			<img src="img/main/icons/plus.svg" alt="plus">
-			</div>
+	<label for="number of children">дети:</label>
+<div class="numbers_children">
+		<span>
+		<img class="minus" src="img/main/icons/min.svg" alt="min">
+		</span>
+		<input tabindex="3" type="tel" name="number" placeholder="2">
+		<span>
+		<img class="plus" src="img/main/icons/plus.svg" alt="plus">
+		</span>
+		</div>
 	</div>
 </div>
-<button tabindex="3" type="submit">найти</button>
+<button class="find" tabindex="3" type="submit">найти</button>
 	</form>
 	</div>
-</div>
-<div class="main-bot__map">
-</div>
-</section>
-
-<section class="footer">	
-<p class="footer-contacts">#visitsedona <br>	
-тел:+7(495)666-01-66
+<div class="footer-line">
+<div class="footer__visits">
+<p class="visits-contacts">#visitsedona
+	<p class="contacts__tel">
+тел:+7(495)666-01-66</p>
 </p>
-<div class="footer-links">	
-<a href="#"><img src="img/main/icons/icon-1.svg" alt="twitter">
-</a>
-<a href="#"><img src="img/main/icons/icon-1.svg" alt="fb"></a>
-<a href="#">
-<img src="img/main/icons/youtube.png" alt="yt"></a>
+</div>
+<div class="footer-links">
+	<div class="Footer-links__twitter">
+<a class="twitter" href="#"><span class="visually-hidden">Twitter</span></a><img src="img/main/icons/twitter.png" alt="twitter"></div>
+<div class="Footer-links__facebook">
+<a class="facebook" href="#"><span class="visually-hidden">Facebook</span></a><img src="img/main/icons/fb-icon.png" alt="facebook"></div>
+<div class="Footer-links__youtube">
+<a class="youtube" href="#"><span class="visually-hidden">Youtube</span></a><img src="img/main/icons/youtube.png" alt="youtube"></div>
 </div>
 <div class="Footer-label__html_academy">
-<span>website by</span>
-	<img src="img/main/icons/logo-htmlacademy.svg" alt="значек академии">
+<div class="footerweb"> website by</div>
+<div class="webimg"><img src="img/main/icons/logo-htmlacademy.svg" alt="значек академии"></div>
+</div>
+</div>
 </div>
 </section>
-</section>
+</div>
 </body>
 </html>

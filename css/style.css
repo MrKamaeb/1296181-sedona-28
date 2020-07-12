@@ -428,6 +428,12 @@ align-items: center;
 }
 .footer-info {
 }
+.footer-info a{
+color: black;
+font-size: 21px;
+font-weight: bold;
+line-height: 26px;
+}
 .footer-links {
 display: flex;
 justify-content: center;

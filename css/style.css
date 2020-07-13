@@ -850,10 +850,9 @@ font-family: PT Sans;
 .min-price label{
 }
 .max-price label {
-padding-left: 25px;
 }
 .max-price{
-	padding-left: 40px;
+	padding-left: 50px;
 }
 
 
@@ -884,4 +883,6 @@ color: #000000;
 background-color: #FFFFFF;
 }
 
-
+.modal-show {
+  display: block;
+}
